@@ -156,7 +156,7 @@ A continuación se presentan las capturas de pantalla que demuestran el correcto
 *   **Lenguaje:** Java (JDK 21 o superior).
 *   **IDE Recomendado:** IntelliJ IDEA / Eclipse / VS Code.
 *   **Control de Versiones:** Git y GitHub.
-<br>
+
 ---
 > ***Autora:** Melva Suarez*  
 > ***Link del repositorio:** [Corrección Examen POO](https://github.com/MelvaSuarez29/sistema-envios-servientrega.git)*  

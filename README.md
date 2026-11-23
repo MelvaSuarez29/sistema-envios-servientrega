@@ -144,13 +144,13 @@ A continuación se presentan las capturas de pantalla que demuestran el correcto
 
 | Funcionalidad / Caso | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Menú Principal** | Visualización del menú y validación de opción inválida. | ![Menú](screenshots/01-Menú Opción inválida.png) |
-| **Registro Nacional** | Casos 1 y 2: Envíos nacionales con y sin domicilio. | ![Nacional](screenshots/02-Registro Envios Nacionales.png) |
-| **Registro Express** | Casos 3 y 4: Envíos express (24h y 48h por defecto). | ![Express](screenshots/03-Registro Envíos Express.png) |
-| **Internacional y Rechazo** | Caso 5, 6 y 7: Envío válido y rechazos por regla 4x4. | ![Internacional](screenshots/04-Registro Envíos Internacional y Rechazo 4x4.png) |
-| **Consultas** | Casos 9 y 10: Consulta exitosa y consulta de guía inexistente. | ![Consultas](screenshots/05-Consultas de Guia HashMap.png) |
-| **Entrega y Recaudación** | Caso 11: Entrega de envíos y total recaudado. | ![Entregas](screenshots/06-Entregas y Recaudación Total.png) |
-| **Listar Entregas** | Caso 12: Listado de entregados. | ![Listar](screenshots/07-Listar Entregas.png) |
+| **Menú Principal** | Visualización del menú y validación de opción inválida. | [Menú](<screenshots/01-Menú Opción inválida.png>) |
+| **Registro Nacional** | Casos 1 y 2: Envíos nacionales con y sin domicilio. | [Registro E.Nacional](<screenshots/02-Registro Envios Nacionales.png>) |
+| **Registro Express** | Casos 3 y 4: Envíos express (24h y 48h por defecto). | [Registro E.Express](<screenshots/03-Registro Envios Express.png>) |
+| **Internacional y Rechazo** | Casos 5, 6 y 7: Envío válido y rechazos por regla 4x4. | [Registro E.Internacional](<screenshots/04-Registro Envíos Internacional y Rechazo 4x4.png>) |
+| **Consultas** | Casos 9 y 10: Consulta exitosa y consulta de guía inexistente. | [Consulta](<screenshots/05-Consultas de Guia HashMap.png>) |
+| **Entrega y Recaudación** | Caso 11: Entrega de envíos y total recaudado. | [Entregas](<screenshots/06-Entregas y Recaudación Total.png>) |
+| **Listar Entregas** | Caso 12: Listado de entregados. | [Listar Entregas](<screenshots/07-Listar Entregas.png>) |
 
 ## 🛠️ Tecnologías Utilizadas
 *   **Lenguaje:** Java (JDK 21 o superior).

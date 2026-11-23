@@ -11,7 +11,7 @@ public class EnvioInternacional extends Envio{
     public void setValorFobUsd(double valorFobUsd) {  this.valorFobUsd = valorFobUsd; }
 
     public boolean cumple4x4(){
-        return getPesokg() <= 4.00 && valorFobUsd <= 4.00;
+        return super.getPesokg() <= 4.0 && valorFobUsd <= 400.0;
     }
 
     @Override

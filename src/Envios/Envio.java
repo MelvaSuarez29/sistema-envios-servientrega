@@ -22,9 +22,9 @@ public class Envio {
     public void setDestinatario(String destinatario) {this.destinatario = destinatario;}
     public void setCiudadDestino(String ciudadDestino) {this.ciudadDestino = ciudadDestino;}
     public void setPesokg(double pesokg) {
-        if(pesokg < 0) {
-            throw new IllegalArgumentException("Pesokg debe ser positivo");
-        }this.pesokg = pesokg;
+        if (pesokg > 0) {
+            this.pesokg = pesokg;
+        }
     }
 
     public int kilosFacturables(){

@@ -39,7 +39,7 @@ public class SistemaEnvios {
                     listarEntregados(entregados);
                     break;
                 default:
-                    System.out.println("La opción ingresada es inválida");
+                    System.out.println("Opción inválida");
                     break;
             }
         } while (true);
@@ -58,8 +58,8 @@ public class SistemaEnvios {
     }
 
     public static int registrarEnvio(Scanner sc, HashMap<String, Envio> enTransito, int contador) {
-        System.out.print("Tipo de servicio \n1 nacional \n2 express \n3 internacional");
-        System.out.println("\nSeleccione un tipo de servicio: ");
+        System.out.print("Tipo de servicio \n1 Nacional \n2 Express \n3 Internacional");
+        System.out.print("\nSeleccione un tipo de servicio: ");
         int tipo = Integer.parseInt(sc.nextLine());
 
         System.out.print("Nombre del destinatario: ");
@@ -109,7 +109,7 @@ public class SistemaEnvios {
             EnvioInternacional envio = new EnvioInternacional(guia, destinatario, ciudad, peso, valorFob);
 
             if (!envio.cumple4x4()) {
-                System.out.println("Envío RECHAZADO: No cumple la regla 4x4 (máximo 4kg y $400). No se asigna guía.");
+                System.out.println("Envío RECHAZADO: No cumple la regla 4x4...");
                 return contador;
             }
 

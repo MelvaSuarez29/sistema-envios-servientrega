@@ -144,13 +144,13 @@ A continuación se presentan las capturas de pantalla que demuestran el correcto
 
 | Funcionalidad / Caso | Descripción | Captura de Pantalla |
 | :--- | :--- | :--- |
-| **Menú Principal** | Visualización del menú y validación de opción inválida. | *(Insertar imagen aquí)* |
-| **Registro Nacional** | Caso 1 y 2: Envíos nacionales con y sin domicilio. | *(Insertar imagen aquí)* |
-| **Registro Express** | Caso 3 y 4: Envíos express (24h y 48h por defecto). | *(Insertar imagen aquí)* |
-| **Registro Internacional** | Caso 5: Envío internacional válido (Guía INT1005). | *(Insertar imagen aquí)* |
-| **Rechazo 4x4** | Casos 6 y 7: Rechazo por peso > 4kg o valor > $400. | *(Insertar imagen aquí)* |
-| **Consultas** | Caso 9 y 10: Consulta exitosa y consulta de guía inexistente. | *(Insertar imagen aquí)* |
-| **Entrega y Recaudación** | Caso 11 y 12: Entrega de envíos, total recaudado y consulta de entregado. | *(Insertar imagen aquí)* |
+| **Menú Principal** | Visualización del menú y validación de opción inválida. | [Menú](screenshots/01-Menú Opción inválida.png) |
+| **Registro Nacional** | Casos 1 y 2: Envíos nacionales con y sin domicilio. | [Nacional](screenshots/02-Registro Envios Nacionales.png) |
+| **Registro Express** | Casos 3 y 4: Envíos express (24h y 48h por defecto). | [Express](screenshots/03-Registro Envios Express.png) |
+| **Internacional y Rechazo** | Caso 5, 6 y 7: Envío válido y rechazos por regla 4x4. | [Internacional](screenshots/04-Registro Envíos Internacional y Rechazo 4x4.png) |
+| **Consultas** | Casos 9 y 10: Consulta exitosa y consulta de guía inexistente. | [Consultas](screenshots/05-Consultas de Guia HashMap.png) |
+| **Entrega y Recaudación** | Caso 11: Entrega de envíos y total recaudado. | [Entregas](screenshots/06-Entregas y Recaudación Total.png) |
+| **Listar Entregas** | Caso 12: Listado de entregados. | [Listar](screenshots/07-Listar Entregas.png) |
 
 ## 🛠️ Tecnologías Utilizadas
 *   **Lenguaje:** Java (JDK 21 o superior).
